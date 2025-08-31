@@ -1,9 +1,15 @@
+# UE project
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-Build/
+Build/                 
 
+# Plugins (evita artefactos)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# IDEs
 .vscode/
 .vs/
 .idea/
@@ -15,3 +21,11 @@ Build/
 *.suo
 *.xcodeproj
 *.xcworkspace
+*.iml
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# UE user-only config
+Config/DefaultEditorPerProjectUserSettings.ini
